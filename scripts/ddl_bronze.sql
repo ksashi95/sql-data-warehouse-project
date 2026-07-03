@@ -1,6 +1,7 @@
 /*
-=======================================================================================================
+===============================================
 ** DDL Script – Bronze Layer Table Creation
+===============================================
 
 This script creates the raw tables for the Bronze layer of the data warehouse. Before creating each table, 
 it checks whether the table already exists and drops it to ensure a clean and consistent deployment.
@@ -8,8 +9,9 @@ it checks whether the table already exists and drops it to ensure a clean and co
 The tables are designed to store data from the CRM and ERP source systems without applying any transformations, 
 preserving the original structure of the source files.
 
-
+----------------------------------------------
 *** Key Features:
+----------------------------------------------
 
 * Uses IF OBJECT_ID to check for existing tables.
 * Drops existing tables before recreation to ensure repeatable deployments.
