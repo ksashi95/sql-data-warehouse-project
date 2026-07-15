@@ -16,3 +16,7 @@ This script performs the initial setup of the data warehouse by:
   * **Gold** - Stores curated, business-level datasets designed for reporting, dashboards, and analytical workloads.
 
 This layered architecture improves data quality, maintainability, scalability, and supports a clear separation between raw, processed, and presentation-ready data.
+
+
+**Note:** I built this project to learn and practice **SQL, data analysis, data warehousing, and ETL**. I followed the original SQL portfolio project by **Data With Baraa** as a guide, but I completed the implementation myself and learned a lot throughout the process. Huge thanks to **Data With Baraa** for creating such an awesome learning resource!
+-YouTube: <https://youtube.com/playlist?list=PLNcg_FV9n7qZY_2eAtUzEUulNjTJREhQe&si=WIuF94Hl3APOGonJ>
